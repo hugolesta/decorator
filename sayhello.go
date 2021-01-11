@@ -2,13 +2,13 @@ package decorator
 
 import "fmt"
 
-type HanderSayHello struct{}
+type HandlerSayHello struct{}
 
-func NewHanderSayHello() *HandlerSayHello {
-	return &handlerSayHello{}
+func NewHandlerSayHello() *HandlerSayHello {
+	return &HandlerSayHello{}
 }
 
-func (h *handlerSayHello) Process() error {
-	fmt.Println("Hello")
+func (h *HandlerSayHello) Process() error {
+	fmt.Println("Hola")
 	return nil
 }
