@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hugolesta/go-design-patherns/decorator"
+	"github.com/hugolesta/decorator"
 )
 
 func main() {

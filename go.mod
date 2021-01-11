@@ -1,5 +1,3 @@
-module github.com/hugolesta/go-design-patherns/decorator
+module github.com/hugolesta/decorator
 
 go 1.13
-
-require github.com/hugolesta/go-design-patherns v0.0.1 // indirect
