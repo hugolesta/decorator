@@ -22,5 +22,5 @@ func main() {
 
 func start(route *decorator.Route) {
 	route.Add(decorator.NewHandlerSayHello(), "/saludar")
-	route.Add(decorator.NewHandlerSayGoodbye(), "/despedirse")
+	route.Add(decorator.NewLogRegistry(decorator.NewHandlerSayGoodbye()), "/despedirse")
 }
